@@ -1,0 +1,32 @@
+article{
+	display:inline-block;
+	width: 750px; 
+	vertical-align: top;
+}
+.article .container-article .blog-title{
+	font-size: 20px;
+	font-weight: 700;
+	font-family: "宋体";
+	margin-bottom: 20px;
+}
+.article .blog-foot{
+    height: 40px;
+	margin-top: 40px;
+	line-height: 40px;
+}
+.article .blog-foot .blog-foot-left{
+	display: inline-block;
+	width: 100px;
+}
+.article .blog-foot .blog-foot-right{
+	width: 360px;
+	display: inline-block;
+	float: right;
+}
+.article .blog-foot .blog-foot-right ul{
+	display: flex;
+	flex-direction: row;
+}
+.article .blog-foot .blog-foot-right ul li{
+	width: 90px;
+}

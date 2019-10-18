@@ -1,0 +1,8 @@
+main aside{
+	display:inline-block;
+	width: 380px; 
+	margin-right: 10px;
+	vertical-align: top;
+	/*解决inline-block不在同一行的代码  具体原因是文字不会迁就块级元素的变化 所以要设置将基线设置为顶部*/
+}
+	

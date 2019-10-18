@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="css/header.css"/>
+<link rel="stylesheet" type="text/css" href="css/common.css"/>
+<link rel="stylesheet" type="text/css" href="css/main-aside.css"/>
+<link rel="stylesheet" type="text/css" href="css/main-aside-container1.css"/>
+<link rel="stylesheet" type="text/css" href="css/main-aside-container2.css"/>
+<link rel="stylesheet" type="text/css" href="css/main-aside-container3.css"/>
+<link rel="stylesheet" type="text/css" href="css/main-aside-container4.css"/>
+<link rel="stylesheet" type="text/css" href="css/main-article.css"/>
+<style type="text/css" >
+	body{
+		background-color: #f5f5f5;
+	}
+	main{
+		width: 1200px;
+		margin: 10px auto;
+	}
+</style>
+</head>
+<body>
+	<header>
+		<div id="bcground">
+			<div id="head-user">
+				<img class="user-img" src="image/userfont.jpg"></img>
+				<span id="user-description">sofency'blog</span>
+			</div>
+			
+		</div>
+		<div id="nav">
+			<ul id="head-nav">
+				<li><a href="#">首页</a></li>
+				<li><a href="#">读者墙</a></li>
+				<li><a href="#">留言板</a></li>
+				<li><a href="#">友情链接</a></li>
+				<li><a href="#">关于</a></li>
+			</ul>
+		</div>
+	</header>
+	<main>
+		<aside>
+			<!--container1.css-->
+			<div class="container">
+				<!--用户的头像展示-->
+				<div class="user-img-position">
+					<img  class="user-img" src="image/userfont.jpg" />
+					<div id="user-desc">
+						<div id="user-content">
+							<span id="user-content-top">
+								 我所认为最深沉的爱
+							</span>
+							<span id="user-content-bottom">
+								莫过于分开以后，我将自己活成了你的样子。
+							</span>
+						</div>
+					</div>
+				</div>
+				<!--博客展示-->
+				<div id="user-blog">
+					<span>公告:我的主博客地址>></span><a href="https:www.sofency.top">www.sofency.top</a>
+				</div>
+				
+				<!--最新图片-->
+				<div id="user-last-image">
+					<h1 class="commonly-padding">最新图片</h1>
+					<div class="commonly-margin">
+						<img src="image/head-new-1.jpg"/>
+						<img src="image/head-new-2.jpg"/>
+						<img src="image/head-new-3.jpg"/>
+						<img src="image/head-new-4.jpg"/>
+						<img src="image/head-new-5.jpg"/>
+					</div>
+				</div>
+				
+				<!--搜索-->
+				<div id="user-search">
+					<h1 class="commonly-padding">搜索</h1>
+					<div class="commonly-margin" style="padding-left: 30px;height: 70px;line-height: 70px;">
+						<input type="search" style="height: 25px;"><button>查询</button>
+					</div>
+				</div>
+			</div>
+			<!--container2.css-->
+			<div class="container">
+				<!--最近消息-->
+				<div class="last-news" >
+					<h1 class="commonly-padding">近期文章</h1>
+					<div class="news-content" style="height: 270px;margin-top: 24px;">
+						<ul>
+							<li><a href="#">所有主题传送门</a></li>
+							<li><a href="#">明天你好，愿与你携手共进</a></li>
+							<li><a href="#">单栏CelineDion小清新主题</a></li>
+							<li><a href="#">原创forget主题</a></li>
+							<li><a href="#">原创响应式metion主题，简洁不简单</a></li>
+							<li><a href="#">完结amativeness主题</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--文章归档 container3.css-->
+			<div class="container">
+				<!--后期根据article-archive属性锁定下面的table-->
+				<div class="archive article-archive">
+					<h1 class="commonly-padding">文章归档</h1>
+					<div class="articles">
+						<table>
+							<tr>
+								<td ><a href="#">2014年十月</a></td>
+								<td><a href="#">2014年八月</a></td>
+							</tr>
+							<tr>
+								<td><a href="#">2014年三月</a></td>
+								<td></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+			<!--分类目录-->
+			<!--使用的是container3.css的样式-->
+			<div class="container">
+				<div class="archive article-clarify">
+					<!--后期根据article-clarify属性锁定下面的table-->
+					<h1 class="commonly-padding">分类目录</h1>
+					<div class="articles ">
+						<table>
+							<tr>
+								<td><a href="#">QQ空间背景音乐</a></td>
+								<td><a href="#">wordpress</a></td>
+							</tr>
+							<tr>
+								<td><a href="#">主题</td>
+								<td><a href="#">开源</td>
+							</tr>
+							<tr>
+								<td><a href="#">未分类</a></td>
+								<td><a href="#">软件</a></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+		    </div>
+			 <!--最近评论-->
+			 <!--使用的是container4.css的样式-->
+			<div class="container">
+				<div id="last-comments">
+					<h1 class="commonly-padding">近期评论</h1>
+					<!--循环评论-->
+					<div class="comment">
+						<div class="comment-user-font" >
+							<img src="image/head-new-4.jpg" >
+						</div>
+						<div class="comment-user-info">
+							<div class="comment-user">
+								<span class="user-name">sofency</span>&nbsp;&nbsp;<span class="comment-time">42秒前</span>
+							</div>
+							<div class="comment-content">
+								<!--块级元素才能使用省略号进行处理-->
+								<span class="comment-word">谢谢你我的问题得到了解决</span>
+							</div>
+						</div>
+					</div>
+					<!--循环评论-->
+					<div class="comment">
+						<div class="comment-user-font" >
+							<img src="image/head-new-5.jpg" >
+						</div>
+						<div class="comment-user-info">
+							<div class="comment-user">
+								<span class="user-name">alice</span>&nbsp;&nbsp;<span class="comment-time">一小时前</span>
+							</div>
+							<div class="comment-content">
+								<!--块级元素才能使用省略号进行处理-->
+								<span class="comment-word">谢谢你我的问题得到了解决</span>
+							</div>
+						</div>
+					</div>
+					<!--循环评论-->
+					<div class="comment">
+						<div class="comment-user-font" >
+							<img src="image/head-new-2.jpg" >
+						</div>
+						<div class="comment-user-info">
+							<div class="comment-user">
+								<span class="user-name">吴婷</span>&nbsp;&nbsp;<span class="comment-time">两小时前</span>
+							</div>
+							<div class="comment-content">
+								<!--块级元素才能使用省略号进行处理-->
+								<span class="comment-word">谢谢你我的问题得到了解决</span>
+							</div>
+						</div>
+					</div>
+					
+					<!--循环评论-->
+					<div class="comment">
+						<div class="comment-user-font" >
+							<img src="image/head-new-2.jpg" >
+						</div>
+						<div class="comment-user-info">
+							<div class="comment-user">
+								<span class="user-name">sophia</span>&nbsp;&nbsp;<span class="comment-time">2小时前</span>
+							</div>
+							<div class="comment-content">
+								<!--块级元素才能使用省略号进行处理-->
+								<span class="comment-word">谢谢你我的问题得到了解决</span>
+							</div>
+						</div>
+					</div>
+					
+					<!--循环评论-->
+					<div class="comment">
+						<div class="comment-user-font" >
+							<img src="image/head-new-3.jpg" >
+						</div>
+						<div class="comment-user-info">
+							<div class="comment-user">
+								<span class="user-name">Tim</span>&nbsp;&nbsp;<span class="comment-time">3小时前</span>
+							</div>
+							<div class="comment-content">
+								<!--块级元素才能使用省略号进行处理-->
+								<span class="comment-word">谢谢你我的问题得到了解决</span>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</aside>
+		
+		<article class="article">
+			<!--后台根据数据进行遍历添加数据-->
+			<!--第1条博客-->
+			<div class="container-article">
+				<!--博客的标题-->
+				<h1 class="blog-title">所有主题延时传送门</h1>
+				<!--简短的内容-->
+				<div class="brief-content">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non laboriosam inventore labore doloribus et provident neque! Itaque totam magni culpa consectetur quidem obcaecati eveniet repellat eaque quibusdam saepe labore necessitatibus ipsa architecto ipsam deleniti autem nulla quisquam quos ducimus voluptates!
+				</div>
+				<!--归类-发表日期-围观-阅读全文-评论-->
+				<div class="blog-foot" >
+					<div class="blog-foot-left">
+						未分类
+					</div>
+					<div class="blog-foot-right">
+						<ul>
+							<li>2014/10/21</li>
+							<li>围观:<span class="blog-visitor">302人</span></li>
+							<li><a href="#">阅读全文</a></li>
+							<li>评论<span class="comment-number">1</span>人</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--第2条博客-->
+			<div class="container-article">
+				<!--博客的标题-->
+				<h1 class="blog-title">所有主题延时传送门</h1>
+				<!--简短的内容-->
+				<div class="brief-content">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non laboriosam inventore labore doloribus et provident neque! Itaque totam magni culpa consectetur quidem obcaecati eveniet repellat eaque quibusdam saepe labore necessitatibus ipsa architecto ipsam deleniti autem nulla quisquam quos ducimus voluptates!
+				</div>
+				<!--归类-发表日期-围观-阅读全文-评论-->
+				<div class="blog-foot" >
+					<div class="blog-foot-left">
+						未分类
+					</div>
+					<div class="blog-foot-right">
+						<ul>
+							<li>2014/10/21</li>
+							<li>围观:<span class="blog-visitor">302人</span></li>
+							<li><a href="#">阅读全文</a></li>
+							<li>评论<span class="comment-number">1</span>人</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--第3条博客-->
+			<div class="container-article">
+				<!--博客的标题-->
+				<h1 class="blog-title">所有主题延时传送门</h1>
+				<!--简短的内容-->
+				<div class="brief-content">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non laboriosam inventore labore doloribus et provident neque! Itaque totam magni culpa consectetur quidem obcaecati eveniet repellat eaque quibusdam saepe labore necessitatibus ipsa architecto ipsam deleniti autem nulla quisquam quos ducimus voluptates!
+				</div>
+				<!--归类-发表日期-围观-阅读全文-评论-->
+				<div class="blog-foot" >
+					<div class="blog-foot-left">
+						未分类
+					</div>
+					<div class="blog-foot-right">
+						<ul>
+							<li>2014/10/21</li>
+							<li>围观:<span class="blog-visitor">302人</span></li>
+							<li><a href="#">阅读全文</a></li>
+							<li>评论<span class="comment-number">1</span>人</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<!--第1条博客-->
+			<div class="container-article">
+				<!--博客的标题-->
+				<h1 class="blog-title">所有主题延时传送门</h1>
+				<!--简短的内容-->
+				<div class="brief-content">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non laboriosam inventore labore doloribus et provident neque! Itaque totam magni culpa consectetur quidem obcaecati eveniet repellat eaque quibusdam saepe labore necessitatibus ipsa architecto ipsam deleniti autem nulla quisquam quos ducimus voluptates!
+				</div>
+				<!--归类-发表日期-围观-阅读全文-评论-->
+				<div class="blog-foot" >
+					<div class="blog-foot-left">
+						未分类
+					</div>
+					<div class="blog-foot-right">
+						<ul>
+							<li>2014/10/21</li>
+							<li>围观:<span class="blog-visitor">302人</span></li>
+							<li><a href="#">阅读全文</a></li>
+							<li>评论<span class="comment-number">1</span>人</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--第2条博客-->
+			<div class="container-article">
+				<!--博客的标题-->
+				<h1 class="blog-title">所有主题延时传送门</h1>
+				<!--简短的内容-->
+				<div class="brief-content">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non laboriosam inventore labore doloribus et provident neque! Itaque totam magni culpa consectetur quidem obcaecati eveniet repellat eaque quibusdam saepe labore necessitatibus ipsa architecto ipsam deleniti autem nulla quisquam quos ducimus voluptates!
+				</div>
+				<!--归类-发表日期-围观-阅读全文-评论-->
+				<div class="blog-foot" >
+					<div class="blog-foot-left">
+						未分类
+					</div>
+					<div class="blog-foot-right">
+						<ul>
+							<li>2014/10/21</li>
+							<li>围观:<span class="blog-visitor">302人</span></li>
+							<li><a href="#">阅读全文</a></li>
+							<li>评论<span class="comment-number">1</span>人</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--第3条博客-->
+			<div class="container-article">
+				<!--博客的标题-->
+				<h1 class="blog-title">所有主题延时传送门</h1>
+				<!--简短的内容-->
+				<div class="brief-content">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non laboriosam inventore labore doloribus et provident neque! Itaque totam magni culpa consectetur quidem obcaecati eveniet repellat eaque quibusdam saepe labore necessitatibus ipsa architecto ipsam deleniti autem nulla quisquam quos ducimus voluptates!
+				</div>
+				<!--归类-发表日期-围观-阅读全文-评论-->
+				<div class="blog-foot" >
+					<div class="blog-foot-left">
+						未分类
+					</div>
+					<div class="blog-foot-right">
+						<ul>
+							<li>2014/10/21</li>
+							<li>围观:<span class="blog-visitor">302人</span></li>
+							<li><a href="#">阅读全文</a></li>
+							<li>评论<span class="comment-number">1</span>人</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</article>
+	</main>
+	
+</body>
+</html>

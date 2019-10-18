@@ -1,0 +1,19 @@
+.commonly-padding{
+	height: 30px;
+	padding-left: 25px;
+	line-height: 30px;
+	font-size: 18px;
+	background-color: rgba(206,233,156,0.9);
+}
+.commonly-margin{
+	margin: 10px auto;
+}
+main aside .container{
+	background-color: white;
+	margin-bottom: 10px;
+}
+main article .container-article{
+	padding: 20px 20px 10px 20px;
+	background-color: white;
+	margin-bottom: 10px;
+}

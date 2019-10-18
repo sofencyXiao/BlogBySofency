@@ -1,0 +1,16 @@
+main aside .archive .articles{
+	width: 100%;
+	margin-top: 10px;
+}
+.archive .articles table tr{
+	height: 35px;
+	/*width: 310px;宽度不起作用是根据td来设置的*/
+}
+table tr td{
+	line-height: 30px;
+	width: 150px;
+	/*设置的是内容的宽度*/
+	padding-left:20px ;
+	/*padding不在内容区域内*/
+	box-sizing: border-box;
+}

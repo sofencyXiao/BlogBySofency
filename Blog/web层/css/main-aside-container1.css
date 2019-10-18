@@ -1,0 +1,49 @@
+main aside .container .user-img-position{
+	margin-bottom: 10px;
+}
+main aside .container #user-desc{
+	background-color: rgba(206,233,156,0.7);
+	height: 120px;
+}
+main aside .container #user-desc #user-content{
+	 line-height: 20px;
+	 width: 100%;
+	 padding-top: 25px;
+	 margin-left: 10%;
+}
+main aside .container #user-desc #user-content #user-content-top{
+	 display:block;
+	 font-size: 20px;
+	 text-align: left;
+	 margin-top:10px;
+	 margin-bottom: 10px;
+}
+main aside .container #user-desc #user-content #user-content-bottom{
+	font-size: 13px;
+}
+main aside .container #user-blog{
+	 width: 100%; 
+	 height: 90px;
+	 text-align: center;
+	 line-height: 90px;
+	 color: rgba(206,233,156,1);
+}
+main aside .container #user-blog a{
+	color: black;
+}
+main aside .container #user-last-image .commonly-margin img{
+	 margin-right: 10px;
+	 width: 60px;
+	 height: 60px;
+}
+main aside .container #user-last-image .commonly-margin img:first-child{
+	margin-left: 10px;
+}
+main aside .container #user-search .commonly-margin button{
+	 height: 25px;
+	 width:50px;
+	 border-radius:5px;
+	 border:none;
+	 box-sizing: border-box;
+	 background-color: rgba(206,233,156,0.9);
+}

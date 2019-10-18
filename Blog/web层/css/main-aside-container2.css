@@ -1,0 +1,8 @@
+main aside .container .last-news .news-content ul li{
+	height: 36px;
+	width: 320px;
+	line-height: 36px;
+	border-bottom: 1px solid #ccc;
+	margin-left: 25px;
+	
+}

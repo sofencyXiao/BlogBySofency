@@ -1,0 +1,65 @@
+header{
+		width: 100%;
+		min-width: 1000px;
+		min-width: 150px;
+	}
+	header #bcground{
+		position: relative;
+		width: 100%;
+		height:200px;
+		background-image:url(../image/head.jpg);
+	}
+	header #head-user{
+		position: absolute;
+		width: 500px;
+		height: 120px;
+		top: 20px;
+		left: 30%;
+		margin: auto;
+	}
+	.user-img{
+		display: block;
+		width: 80px;
+		height:80px;
+		margin: 0 auto;
+	    border-radius: 50%;
+	    margin-bottom: 10px;
+	}
+	header #bcground #user-description,#user-mood{
+		display: block;
+		width: 100%;
+		height: 20px;
+		font-size: 18px;
+		color:  #5C3317;
+		text-align: center;
+	}
+	header #user-mood{
+		margin-top: 10px;
+		font-size: 13px;
+	}
+	header #nav{
+		width: 100%;
+		height: 35px;
+		background-color: #535c68;
+	}
+	header  #head-nav{
+		display: flex;
+		justify-content: left;
+		width: 1200px;
+		height: 35px;
+		line-height: 35px ;
+		margin: auto;
+	}
+	header ul>li{
+		display: inline-block;
+		margin: 0 20px;
+		width: 100px;
+		height: 35px;
+		background-color: block;
+	}
+	header ul>li:first-child{
+		margin-left: 0px;
+	}
+	header ul>li>a{
+		color: white;
+	}
