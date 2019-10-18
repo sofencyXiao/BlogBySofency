@@ -1,0 +1,24 @@
+前端遇到的问题总结
+1. 如何是溢出的文字用省略号表示
+条件是针对于块级元素  非块级元素设置无效
+display：block;
+overflow:hidden;
+white-space:nowrap;
+text-overflow:ellipsis;
+
+2.当让两个块级元素设置为inline-block时，那么就具有行级元素的特性
+但是在同一行的元素都有自己的基线，当两个元素不在同一行时需要将基线进行同一处理
+即设置vertical-align:middle即将基线在中间对齐
+vertical-align： top 基线在顶部对齐
+vertical-align: bottom  基线在底部对齐
+根据需要设置基线的位置
+
+3.table元素里面的tr和td主要决定着什么？
+tr一般控制着高度
+td一般控制着高度
+如果在tr里面设置宽度在td里面也设置宽度的话td的宽度生效 tr的宽度不会生效
+
+4.width height 是那部分的宽度和高度
+content的宽度和高度
+
+5.行级元素设置宽度无效  因此必须转换为块级元素
