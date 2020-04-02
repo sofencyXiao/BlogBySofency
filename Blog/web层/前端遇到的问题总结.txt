@@ -22,3 +22,9 @@ td一般控制着高度
 content的宽度和高度
 
 5.行级元素设置宽度无效  因此必须转换为块级元素
+
+6.设置行数并用冒号隐藏数据
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
